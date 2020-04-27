@@ -1,0 +1,6 @@
+# prevent folder listing
+#IndexIgnore *
+Options -Indexes
+
+ErrorDocument 404 http://localhost/idea/qtidea/admin_notfound.php
+#ErrorDocument 500 http://example.com/500/
